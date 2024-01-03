@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 mongoose.connect(
-  "mongodb+srv://admin-gurpreet:Jimmy0227@cluster0.avpov4m.mongodb.net/todolistDB"
+  "mongodb+srv://jimmy28:test123@todos.e3skuol.mongodb.net/todoDB"
 );
 
 const itemsSchema = {
